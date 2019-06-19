@@ -1,5 +1,5 @@
 
-a = input("dawaj cos\n")
+a = input("write a filename to convert (ommit writing an extension, just a name)\n")
 f = open(a + '.obj' , 'r')
 fo = open(a + '.h' , 'w')
 pop = ''
