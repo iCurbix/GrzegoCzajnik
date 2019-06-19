@@ -17,8 +17,6 @@ for l in f:
     rzeczy[li[0]].append(li[1:])
 
 
-
-
 fo.write(f'float {a}Vertices[]={{\n')
 for t in rzeczy['f']:
     for p in t:
@@ -54,14 +52,3 @@ fo.write('};\n')
 
 
 fo.write('#endif')
-
-
-
-
-
-
-
-
-
-
-
