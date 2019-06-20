@@ -1,5 +1,6 @@
 # GrzegoCzajnik
 IMPORTANT - right now every face must be a triangle! If you use blender to export your objects just tick 'Triangulate faces' option.
+
 IMPORTANT2 - right now .obj file must contain only one object
 
 It is a simple python script that allows you to convert .obj file to c header file containing vertex count (NameOfTheFileVertexCount), vertex positions (NameOfTheFileVertices), vertex normals (NameOfTheFileNormals) / face normals (depends on how was .obj file exported, going to change a script a little so that you get both), texturing coordinates (NameOfTheFileTexCoords). Then you can easely use it for OpenGL.
